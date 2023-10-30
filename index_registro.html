@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de Usuarios</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles_registro.css">
+    <script type="text/javascript" src="script_registro.js"></script>
+</head>
+<body>
+<header class="header">
+    <h1 style=" margin-left: 5%; float: left; margin-top: 1.25%;color: white">SHEIN</h1>
+    <form action="">
+        <button class="entrar">Login</button>
+        <button class="entrar">Sign up</button>
+    </form>
+</header>
+<div class="general">
+<h1 class="titulof">Registro de usuarios</h1>
+<div class="form">
+    <form class="f">
+        <div class="correo">
+            Correo <input type="email" class="n" id="correoJS">
+        </div>
+        <div class="username">
+            Usuario <input type="text" id="usernameJS">
+        </div>
+        <div class="password">
+            Contraseña <input type="password" id="pswd1JS">
+        </div>
+        <div class="password2">
+            Confirmar contraseña <input type="password" id="pswd2JS">
+        </div>
+        <div>
+            <button onclick="validarPasswords()">Enviar</button>
+        </div>
+    </form>
+</div>
+</div>
+<footer style="background-color: black; height: 100px;margin-top: 265px"></footer>
+</body>
+</html>
