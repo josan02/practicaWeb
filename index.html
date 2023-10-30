@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<header class="header">
+    <h1 style=" margin-left: 5%; float: left; margin-top: 1.25%;color: white">SHEIN</h1>
+    <form action="">
+        <button class="entrar">Login</button>
+        <button class="entrar">Sign up</button>
+    </form>
+</header>
+<div class="general">
+<h1 class="titulof">Formulario de contacto</h1>
+<div class="form">
+    <form class="f">
+        <div class="name">
+            Nombre <input type="text" class="n" id="nameJS">
+        </div>
+        <div class="surname">
+            Apellidos <input type="text" id="surnameJS">
+        </div>
+        <div class="tlf">
+            Telefono <input type="number">
+        </div>
+        <div class="mail">
+            Correo <input type="email" id="emailJS">
+        </div>
+        <div class="msg">
+            Mensaje <textarea id="msgJS"></textarea>
+        </div>
+        <div>
+            <button onclick="validarCampos()">Enviar</button>
+        </div>
+    </form>
+</div>
+</div>
+<footer style="background-color: black; height: 100px;margin-top: 187px"></footer>
+</body>
+</html>
